@@ -1,4 +1,4 @@
 ## Timetable
 
-python script for polling transportation.opendata.ch
+python script for polling transport.opendata.ch
 
