@@ -33,5 +33,11 @@ def getNextDeparture(fromWhere, toWhere):
 eigerplatz = "008571393"
 hasler = "008590015"
 bern = "008507000"
-print "Eigerplatz: %s" % getNextDeparture(eigerplatz, bern)
-print "Hasler: %s" % getNextDeparture(hasler, bern)
+eigerplatz_string = "Eigerplatz: %s" % getNextDeparture(eigerplatz, bern)
+hasler_string = "Hasler: %s" % getNextDeparture(hasler, bern)
+
+output = open("out.txt", "w")
+output.write(eigerplatz_string)
+output.write(hasler_string)
+output.write("\n")
+
